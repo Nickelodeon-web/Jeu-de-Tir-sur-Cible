@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40">
+    <!-- Arc -->
+    <path d="M5 35 Q50 5 95 35" stroke="saddlebrown" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Corde -->
+    <path d="M5 35 L50 15 L95 35" stroke="#333" stroke-width="1.5" fill="none"/>
+</svg>

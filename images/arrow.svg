@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 100">
+    <rect x="9" y="10" width="2" height="90" fill="silver"/>
+    <path d="M5 10 L10 0 L15 10 Z" fill="red"/>
+    <!-- Empennage (plumes) -->
+    <path d="M9 90 L5 100 L9 100 Z" fill="white"/>
+    <path d="M11 90 L15 100 L11 100 Z" fill="white"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="45" stroke="black" stroke-width="2" fill="white"/>
+    <text x="42" y="30" font-family="Arial" font-size="20">N</text>
+    <text x="42" y="85" font-family="Arial" font-size="20">S</text>
+    <text x="15" y="55" font-family="Arial" font-size="20">O</text>
+    <text x="70" y="55" font-family="Arial" font-size="20">E</text>
+</svg>
