@@ -1,0 +1,65 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.target-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.1);
+}
+.ring-1 { width: 100%; height: 100%; background-color: #f8f9fa; border: 1px solid #ced4da; }
+.ring-2 { width: 90%; height: 90%; background-color: #f8f9fa; border: 1px solid #ced4da; }
+.ring-3 { width: 80%; height: 80%; background-color: #212529; border: 1px solid #495057; }
+.ring-4 { width: 70%; height: 70%; background-color: #212529; border: 1px solid #495057; }
+.ring-5 { width: 60%; height: 60%; background-color: #4cc9f0; border: 1px solid #4361ee; }
+.ring-6 { width: 50%; height: 50%; background-color: #4cc9f0; border: 1px solid #4361ee; }
+.ring-7 { width: 40%; height: 40%; background-color: #ef233c; border: 1px solid #d90429; }
+.ring-8 { width: 30%; height: 30%; background-color: #ef233c; border: 1px solid #d90429; }
+.ring-9 { width: 20%; height: 20%; background-color: #fee440; border: 1px solid #e5a910; }
+.ring-10{ width: 10%; height: 10%; background-color: #fee440; border: 1px solid #e5a910; }
+
+.game-area { text-align: center; margin-top: 20px; position:relative; }
+.weapon { width: 100px; margin-top: 50px; }
+.projectile { position: fixed; width: 20px; left: 50%; top: 500px; transform: translateX(-50%); z-index: 10; transition: transform 0.1s; display:none; }
+.btn-fire { padding: 10px 20px; font-size: 20px; cursor: pointer; background: #e63946; color: white; border: none; border-radius: 5px; margin-top: 20px; font-family: 'Impact', sans-serif;}
+
+.compass-container { position: absolute; top: 100px; left: 50px; width: 100px; height: 100px;}
+.compass { width: 100px; height: 100px; position: absolute;}
+.pointer { width: 100px; height: 100px; position: absolute; transition: transform 1s; }
+.controls { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+.controls button { padding: 10px; cursor: pointer; background: #333; color: #fff; border: 1px solid #555; border-radius: 4px; font-weight: bold;}
+.controls button:hover { background: #555; }
+.hidden { display: none !important; }
+
+.stats { color: white; background: rgba(0,0,0,0.7); padding: 10px; border-radius: 5px; position: absolute; top: 20px; right: 20px; font-size: 1.2rem; }
+
+.login-form { background: rgba(255, 255, 255, 0.9); color: #333; padding: 25px; border-radius: 8px; width: 350px; margin: 100px auto; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+.login-form input, .login-form select { display: block; width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+.login-form button { padding: 10px 20px; background: #4cc9f0; color: white; border: none; border-radius: 4px; font-size: 1rem; cursor:pointer; width: 100%; font-weight: bold;}
+.login-form button:hover { background: #3aa6d1; }
+.login-form a { color: #4361ee; text-decoration: none; display: inline-block; margin-top: 15px; }
+.login-form a:hover { text-decoration: underline; }
+
+.error { color: #e63946; font-size: 12px; text-align: left; margin-bottom: 5px; }
+.alert-error { background: #ffebee; color: #c62828; padding: 10px; border-radius: 4px; margin-bottom: 15px; border: 1px solid #ef9a9a; }
+
+.logout-container { position: absolute; top: 20px; left: 20px; }
+.logout-btn { padding: 8px 15px; background: #d90429; color: white; text-decoration: none; border-radius: 4px; font-weight: bold; }
+.logout-btn:hover { background: #ef233c; }
